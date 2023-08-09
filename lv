@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main() {
+    char name[20];
+    char love[20];
+    printf("请输入你的名字：");
+    scanf(" %s ", name);
+    printf("请输入你爱的人的名字：");
+    scanf(" %s ", love);
+    printf("我爱你，%s，我会永远爱你，%s。\n", name, love);
+    return 0;
+}

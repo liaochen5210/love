@@ -1,0 +1,34 @@
+# 导入必要的库
+import random
+
+# 定义一个函数来生成随机的情话
+def generate_random_love_quote():
+  # 创建一个包含情话的列表
+  love_quotes = [
+    "我喜欢你，就像喜欢春天里的第一缕阳光。",
+    "我喜欢你，就像喜欢夏日里的第一阵微风。",
+    "我喜欢你，就像喜欢秋日里的第一片落叶。",
+    "我喜欢你，就像喜欢冬日里的第一场雪。",
+    "我喜欢你，就像喜欢生命中的第一个春天。",
+    "我喜欢你，就像喜欢生命中的第一个夏天。",
+    "我喜欢你，就像喜欢生命中的第一个秋天。",
+    "我喜欢你，就像喜欢生命中的第一个冬天。",
+    "我喜欢你，就像喜欢生命中的第一个你。"
+  ]
+
+  # 从列表中随机选择一个情话
+  random_love_quote = random.choice(love_quotes)
+
+  # 返回随机选择的情话
+  return random_love_quote
+
+# 定义一个函数来打印情话
+def print_love_quote():
+  # 生成一个随机的情话
+  random_love_quote = generate_random_love_quote()
+
+  # 打印情话
+  print(random_love_quote)
+
+# 调用函数来打印情话
+print_love_qu
